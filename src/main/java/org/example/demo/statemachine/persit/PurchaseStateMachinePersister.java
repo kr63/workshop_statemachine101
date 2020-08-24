@@ -1,7 +1,7 @@
 package org.example.demo.statemachine.persit;
 
 import org.example.demo.statemachine.event.PurchaseEvent;
-import org.example.demo.statemachine.event.PurchaseState;
+import org.example.demo.statemachine.state.PurchaseState;
 import org.springframework.statemachine.StateMachineContext;
 import org.springframework.statemachine.StateMachinePersist;
 

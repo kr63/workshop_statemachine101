@@ -1,7 +1,7 @@
 package org.example.demo.statemachine.action;
 
 import org.example.demo.statemachine.event.PurchaseEvent;
-import org.example.demo.statemachine.event.PurchaseState;
+import org.example.demo.statemachine.state.PurchaseState;
 import org.springframework.statemachine.StateContext;
 import org.springframework.statemachine.action.Action;
 

@@ -5,7 +5,7 @@ import org.example.demo.statemachine.action.CancelAction;
 import org.example.demo.statemachine.action.ErrorAction;
 import org.example.demo.statemachine.action.ReservedAction;
 import org.example.demo.statemachine.event.PurchaseEvent;
-import org.example.demo.statemachine.event.PurchaseState;
+import org.example.demo.statemachine.state.PurchaseState;
 import org.example.demo.statemachine.guard.HideGuard;
 import org.example.demo.statemachine.listener.PurchaseStateMachineApplicationListener;
 import org.example.demo.statemachine.persit.PurchaseStateMachinePersister;

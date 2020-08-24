@@ -2,7 +2,7 @@ package org.example.demo.statemachine.listener;
 
 
 import org.example.demo.statemachine.event.PurchaseEvent;
-import org.example.demo.statemachine.event.PurchaseState;
+import org.example.demo.statemachine.state.PurchaseState;
 import org.springframework.messaging.Message;
 import org.springframework.statemachine.StateContext;
 import org.springframework.statemachine.StateMachine;

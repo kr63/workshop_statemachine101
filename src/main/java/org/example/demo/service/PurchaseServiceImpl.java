@@ -1,7 +1,7 @@
 package org.example.demo.service;
 
 import org.example.demo.statemachine.event.PurchaseEvent;
-import org.example.demo.statemachine.event.PurchaseState;
+import org.example.demo.statemachine.state.PurchaseState;
 import org.springframework.statemachine.StateMachine;
 import org.springframework.statemachine.config.StateMachineFactory;
 import org.springframework.statemachine.persist.StateMachinePersister;

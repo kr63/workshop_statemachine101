@@ -2,7 +2,7 @@ package org.example.demo.statemachine.guard;
 
 
 import org.example.demo.statemachine.event.PurchaseEvent;
-import org.example.demo.statemachine.event.PurchaseState;
+import org.example.demo.statemachine.state.PurchaseState;
 import org.springframework.statemachine.StateContext;
 import org.springframework.statemachine.guard.Guard;
 
