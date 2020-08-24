@@ -1,0 +1,11 @@
+// user1 reserve product1
+###
+GET http://localhost:8080/reserve/1/1
+
+// user1 cancel reservation
+###
+GET http://localhost:8080/cancel/1
+
+// user1 buy
+###
+GET http://localhost:8080/buy/1
